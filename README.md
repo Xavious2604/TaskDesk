@@ -1,11 +1,14 @@
 # 📋 TaskDesk - Enterprise Task Management System
 
+> ⚠️ **CONFIDENTIAL ENTERPRISE PROJECT**: This is a proprietary enterprise-level application developed for **Sensys Technologies Pvt. Ltd.** The source code and implementation details are confidential and cannot be publicly shared. This documentation serves as a portfolio showcase of the project's features and architecture.
+
 <div align="center">
   
   [![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?logo=vue.js&logoColor=white)](https://vuejs.org/)
   [![.NET Core](https://img.shields.io/badge/.NET%20Core-8.0-512BD4?logo=.net&logoColor=white)](https://dotnet.microsoft.com/)
   [![SQL Server](https://img.shields.io/badge/SQL%20Server-2022-CC2927?logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/sql-server)
   [![PrimeVue](https://img.shields.io/badge/PrimeVue-Latest-41B883?logo=vue.js&logoColor=white)](https://primevue.org/)
+  [![Enterprise](https://img.shields.io/badge/Status-Enterprise%20Confidential-red)](https://github.com/Xavious2604)
   
 </div>
 
@@ -141,78 +144,47 @@ TaskDesk/
     └── Views/
 ```
 
-## 🚀 Getting Started
+## 🚀 Technical Architecture Overview
 
-### Prerequisites
+> **⚠️ Note**: Due to the enterprise-level confidential nature of this project, the complete source code, database schemas, and implementation details cannot be publicly shared. The information below provides an architectural overview for portfolio purposes.
+
+### Technology Requirements
 
 - **Node.js** (v16 or higher)
 - **.NET 8.0 SDK**
-- **SQL Server 2019+** or SQL Server Express
+- **SQL Server 2022** - Enterprise-grade relational database
 - **Visual Studio 2022** or Visual Studio Code
 - **npm** or **yarn**
 
-### Installation
+### High-Level Architecture
 
-#### 1. Clone the Repository
-```bash
-git clone https://github.com/Xavious2604/TaskDesk.git
-cd TaskDesk
-```
+The application follows a three-tier architecture:
 
-#### 2. Database Setup
-```sql
--- Create database
-CREATE DATABASE TaskDeskDB;
+1. **Presentation Layer (Frontend)**
+   - Vue.js 3 with Composition API
+   - PrimeVue component library
+   - Responsive design with mobile support
 
--- Run migration scripts
--- Execute schema.sql from Database/Tables folder
--- Execute stored procedures from Database/StoredProcedures folder
-```
+2. **Business Logic Layer (Backend)**
+   - ASP.NET Core 8.0 Web API
+   - RESTful API architecture
+   - JWT-based authentication
+   - Entity Framework Core ORM
 
-#### 3. Backend Setup
-```bash
-cd Backend
+3. **Data Layer (Database)**
+   - SQL Server 2022
+   - Stored procedures for complex operations
+   - Optimized indexing strategy
+   - Transaction management
 
-# Restore NuGet packages
-dotnet restore
+### Deployment Architecture
 
-# Update connection string in appsettings.json
-```
+- **Frontend Hosting**: Internal corporate server
+- **Backend API**: Secure internal network deployment
+- **Database**: Enterprise SQL Server instance
+- **Authentication**: Corporate SSO integration
 
-```json
-{
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Database=TaskDeskDB;Trusted_Connection=True;"
-  }
-}
-```
-
-```bash
-# Run migrations
-dotnet ef database update
-
-# Run the API
-dotnet run
-```
-
-#### 4. Frontend Setup
-```bash
-cd Frontend
-
-# Install dependencies
-npm install
-
-# Configure API endpoint in .env
-VITE_API_URL=https://localhost:7001/api
-
-# Run development server
-npm run dev
-```
-
-#### 5. Access the Application
-- **Frontend**: `http://localhost:5173`
-- **Backend API**: `https://localhost:7001`
-- **API Documentation**: `https://localhost:7001/swagger`
+**📝 Note**: For inquiries about implementation details or enterprise deployment, please contact through professional channels.
 
 ## 📝 API Endpoints
 
@@ -353,13 +325,32 @@ Project management interface with:
 - [ ] Time tracking with Pomodoro timer
 - [ ] Dark/Light theme toggle
 
-## 🤝 Contributing
+## 🤝 Collaboration & Contact
 
-Contributions are welcome! This is a proprietary enterprise application developed at Sensys Technologies Pvt. Ltd.
+**⚠️ Enterprise Software Notice**: This is proprietary enterprise software developed for Sensys Technologies Pvt. Ltd. The source code, database schemas, and business logic are confidential intellectual property and cannot be publicly shared or distributed.
 
-## 📄 License
+**For Professional Inquiries**:
+- Technical discussions about architecture and design decisions
+- Collaboration opportunities on similar enterprise projects
+- Questions about the development experience
 
-This project is proprietary software developed by Sensys Technologies Pvt. Ltd. All rights reserved.
+Please reach out through the contact information below.
+
+## 📄 License & Copyright
+
+**© 2024 Sensys Technologies Pvt. Ltd. - All Rights Reserved**
+
+This project is proprietary and confidential enterprise software. The source code, documentation, database schemas, and all associated intellectual property are owned exclusively by **Sensys Technologies Pvt. Ltd.**
+
+**Restrictions**:
+- ❌ Source code is not available for public access
+- ❌ No code distribution or reproduction permitted
+- ❌ Implementation details are confidential
+- ❌ Commercial use prohibited without authorization
+
+**Portfolio Use**: This documentation is shared solely for professional portfolio purposes to showcase development capabilities and project experience.
+
+For licensing inquiries or partnership opportunities, please contact Sensys Technologies Pvt. Ltd. directly.
 
 ## 👨‍💻 Developer
 
