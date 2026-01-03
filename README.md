@@ -261,7 +261,7 @@ GET    /api/performance/team                  # Team performance
 ## 🎨 UI Screenshots
 
 ### 1. Kanban Board - Task Management
-![Kanban Board](https://github.com/user-attachments/assets/screenshot1.png)
+![Kanban Board](https://github.com/Xavious2604/TaskDesk/blob/main/Uploads/TaskBoards.PNG)
 
 Multiple status columns with drag-and-drop task cards showing priority, assignees, and progress indicators. Features include:
 - Color-coded priority levels (High: Red, Medium: Yellow, Low: Blue)
@@ -270,7 +270,7 @@ Multiple status columns with drag-and-drop task cards showing priority, assignee
 - Assignee and due date visibility
 
 ### 2. Tasks Dashboard - Overview
-![Tasks Dashboard](https://github.com/user-attachments/assets/screenshot5.png)
+![Tasks Dashboard](https://github.com/Xavious2604/TaskDesk/blob/main/Uploads/Task%20Dashboard.PNG)
 
 Comprehensive task overview dashboard displaying:
 - Total tasks, today's tasks, completed, in progress, and overdue statistics
@@ -280,7 +280,7 @@ Comprehensive task overview dashboard displaying:
 - Total hours logged tracking
 
 ### 3. Project Performance Dashboard
-![Project Performance](https://github.com/user-attachments/assets/screenshot2.png)
+![Project Performance](https://github.com/Xavious2604/TaskDesk/blob/main/Uploads/Projects%20List.PNG)
 
 Project-level analytics and metrics showing:
 - Total projects with task distribution
@@ -291,7 +291,7 @@ Project-level analytics and metrics showing:
 - Hours logged per project
 
 ### 4. Individual Performance Dashboard
-![Individual Performance](https://github.com/user-attachments/assets/screenshot3.png)
+![Individual Performance](https://github.com/Xavious2604/TaskDesk/blob/main/Uploads/Individaul%20Performance%20Dashboard.PNG)
 
 Team member productivity tracking featuring:
 - Individual task statistics and completion rates
@@ -301,7 +301,7 @@ Team member productivity tracking featuring:
 - Task distribution: Total, Completed, In Progress, Pending
 
 ### 5. Projects List Management
-![Projects List](https://github.com/user-attachments/assets/screenshot4.png)
+![Projects List](https://github.com/Xavious2604/TaskDesk/blob/main/Uploads/Project%20Performance%20Dashboard.PNG)
 
 Project management interface with:
 - Project listing with team assignments
