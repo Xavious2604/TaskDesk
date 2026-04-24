@@ -374,7 +374,6 @@ For licensing inquiries or partnership opportunities, please contact Sensys Tech
 - **Team Size**: Full-stack development with stakeholder coordination
 - **Technologies**: 8+ (Vue.js, .NET Core, SQL Server, PrimeVue, etc.)
 - **Features**: 15+ major features implemented
-
 ---
 
 <div align="center">
